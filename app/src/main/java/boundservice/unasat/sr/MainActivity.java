@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         finish() ;
     }
     protected void onEnd (View view) {
+        super.onDestroy();
         stopService( new Intent( this, NotificationService. class )) ;
     }
 }
