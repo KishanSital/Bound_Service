@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         buttonStop.setOnClickListener(this);
     }
 
-
     @Override
     public void onClick(View view) {
         if (view == buttonStart) {
